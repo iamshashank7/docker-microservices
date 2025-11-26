@@ -101,6 +101,7 @@ See .env.example for all variables used by:
 
 IMPORTANT:
 Do NOT commit your .env file. Keep secrets local.
+
 🗃 Database Notes
 
     Postgres automatically creates two databases:
@@ -124,6 +125,7 @@ Test everything via Nginx gateway:
 GET http://localhost:8080/health
 
 If both services + DBs are healthy → you get a combined JSON response.
+
 📦 Tech Stack
 
     Node.js / Express
@@ -138,18 +140,7 @@ If both services + DBs are healthy → you get a combined JSON response.
 
     Microservices Architecture
 
-⭐ Why this project is useful?
-
-    Shows independent deployable services
-
-    API gateway setup using Nginx
-
-    Clean Docker-based development environment
-
-    Perfect template for scaling to more services
-
-    Recruiter-friendly project on GitHub
-
 📄 License
 
 This project is open-source and free.
+
